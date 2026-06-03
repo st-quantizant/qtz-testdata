@@ -1,0 +1,8 @@
+[package]
+name = "vendor-scan-test"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+ring = "0.17.0"
+serde = { version = "1.0.0", features = ["derive"] }
