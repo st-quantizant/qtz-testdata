@@ -1,0 +1,11 @@
+[package]
+name = "simple-crypto"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+ring = "0.17"
+openssl = "0.10"
+ml-kem = "0.3"
+pqcrypto-kyber = "0.8"
+pqcrypto-dilithium = "0.5"

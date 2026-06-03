@@ -1,0 +1,8 @@
+source 'https://rubygems.org'
+
+# classical crypto (VULNERABLE)
+gem 'openssl'
+gem 'jwt'
+
+# post-quantum (SAFE)
+gem 'ruby-oqs'
